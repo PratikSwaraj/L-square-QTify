@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./Button.module.css";
 
-function Button({children}) 
-{
-    return(
-        <>
-         <Button className={styles.button}>{children}</Button>
-        </>
-    )
+function Button({ children }) {
+  return (
+    <>
+    <button class={styles.button}>Give Feedback</button>
+    </>
+  );
 }
 
 export default Button;
