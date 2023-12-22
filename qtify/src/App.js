@@ -1,12 +1,13 @@
 import React from "react";
-// import Button from "./components/Button/Button";
-// import Search from "./components/Search/Search";
 import Navbar from "./components/Navbar/Navbar";
+import HeroImage from "./components/HeroImage/HeroImage";
+
 
 function App() {
   return (
     <>
       <Navbar />
+      <HeroImage/>
     </>
   );
 }
