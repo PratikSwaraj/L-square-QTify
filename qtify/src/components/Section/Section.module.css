@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cardWrapper{
+    margin-top: 18px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .cardWrapper {
+        margin-top: 18px;
+    }
+    
+    .wrapper {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .toggleText {
+        cursor: pointer;
+        color: var(--color-primary);
+    }
+    
+    .filterWrapper {
+        margin-top: 15px;
+    }
+}
+
+.toggleText{
+    cursor: pointer;
+    color: var(--color-primary);
+}
